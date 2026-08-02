@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" method="upgrade">
+    <name>PKG_NATIVESITEMAP</name>
+    <author>ORKA CS</author>
+    <creationDate>2026-08</creationDate>
+    <copyright>(C) 2026 ORKA CS. Tous droits réservés.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <packagename>nativesitemap</packagename>
+    <version>0.10.3</version>
+    <url>https://orkacs.com</url>
+    <packager>ORKA CS</packager>
+    <packagerurl>https://orkacs.com</packagerurl>
+    <description>Package d'installation de Native Sitemap for Joomla.</description>
+    <blockChildUninstall>true</blockChildUninstall>
+
+    <files folder="constituents">
+        <file type="component" id="com_nativesitemap">com_nativesitemap.zip</file>
+    </files>
+</extension>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" method="upgrade">
+    <name>COM_NATIVESITEMAP</name>
+    <author>ORKA CS</author>
+    <creationDate>2026-08</creationDate>
+    <copyright>(C) 2026 ORKA CS. Tous droits réservés.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <authorUrl>https://orkacs.com</authorUrl>
+    <version>0.10.3</version>
+    <description>COM_NATIVESITEMAP_XML_DESCRIPTION</description>
+    <namespace path="src">OrkaCS\Component\Nativesitemap</namespace>
+
+    <media destination="com_nativesitemap" folder="media">
+        <folder>images</folder>
+    </media>
+
+    <administration>
+        <menu view="nativesitemap" img="class:sitemap">COM_NATIVESITEMAP</menu>
+
+        <files folder="admin">
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+
+        <languages folder="admin">
+            <language tag="fr-FR">language/fr-FR/com_nativesitemap.ini</language>
+            <language tag="fr-FR">language/fr-FR/com_nativesitemap.sys.ini</language>
+            <language tag="en-GB">language/en-GB/com_nativesitemap.ini</language>
+            <language tag="en-GB">language/en-GB/com_nativesitemap.sys.ini</language>
+        </languages>
+    </administration>
+</extension>
